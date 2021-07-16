@@ -1,0 +1,163 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(#21c08b, #8f57fd);
+    font-family: muli, sans-serif;
+}
+
+header {
+    background-color: #21c08b;
+}
+
+.header-logo {
+    margin-top: 10px;
+    margin-left: 20px;
+    width: 200px;
+}
+
+.login {
+    background-image: linear-gradient(#21c08b, #8f57fd);
+    padding: 0 30px;
+    padding-bottom: 40px;
+}
+
+.login-principal_section {
+    margin: 0 auto;
+    width: 30%;
+    border: 1px solid white;
+    border-radius: 40px;
+    padding: 50px;
+    box-shadow: 0 14px 28px rgb(0 0 0 / 25%), 0 10px 10px rgb(0 0 0 / 22%);
+    /* margin-bottom: 5px; */
+}
+
+.login-information, .login-extra_information {
+    width: 90%;
+}
+
+.login-information {
+    /* width: 85%; */
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.login-information h1 {
+    font-size: 1.5em;
+    margin-top: 40px;
+    margin-bottom: 70px;
+    font-weight: bold;
+    color: white;
+}
+
+.login-information input {
+    background: none;
+    border: none;
+    border-bottom: 2px solid white;
+    margin-bottom: 50px;
+    padding: 15px;
+    outline: none;
+    font-size: 16px;
+}
+
+.login-information input::placeholder {
+    color: white;
+}
+
+.login-information button {
+    background-color: rgba(255, 255, 255, 0.3);
+    border: none;
+    color: white;
+    border-radius: 25px;
+    height: 50px;
+    width: 90%;
+    margin: 0 auto;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    cursor: pointer;
+    /* margin-top: 25px; */
+}
+
+.login-extra_information {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    color: white;
+    margin-top: 20px;
+    align-items: center;
+}
+
+.login-extra_information a {
+    padding-top: 2px;
+    text-decoration: none;
+    color: inherit;
+}
+
+.login-extra_information a, .method h6, footer a, .sign-in a {
+    text-decoration: none;
+}
+
+.login-extra_information a:hover, .method h6:hover, footer a:hover, .sign-in a:hover {
+    text-decoration: underline;
+}
+
+.other__login-methods {
+    margin-top: 40px;
+}
+
+.method img {
+    width: 35px;
+}
+
+.twitter img {
+    width: 30px;
+}
+
+
+
+.method {
+    display: flex;
+    align-items: center;
+    height: 50px;
+}
+
+.method h6 {
+    margin-left: 10px;
+    font-size: 16px;
+    color: white;
+    font-weight: normal;
+    cursor: pointer;
+}
+
+.twitter h6 {
+    margin-left: 15px;
+}
+
+.sign-in {
+    margin-top: 70px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.sign-in a {
+    font-weight: bold;
+    color: white;
+}
+
+footer {
+    align-items: center;
+    background-color: #8f57fd;
+    display: flex;
+    height: 80px;
+    width: 100%;
+}
+
+footer a {
+    margin-left: 20px;
+    margin-right: 5px;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 700;
+}
